@@ -3,3 +3,27 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
+
+defaults:
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+    type: "posts"
+  values:
+    layout: "default"
+
+#    Now, this will only set the layout for files where the type is posts. 
+#    The different types that are available to you are pages, posts, drafts or 
+#    any collection in your site. While type is optional, you must specify a value 
+#    for path when creating a scope/values pair.
+-
+  scope:
+    path: "projects"
+    type: "pages"
+  values:
+    layout: "project"
+    author: "Brady Sheehan"
+
+#    With these defaults, all posts would use the my-site layout. Any html files 
+#    that exist in the projects/ folder will use the project layout, if it exists. 
+#    Those files will also have the page.author liquid variable set to Mr. Hyde.
