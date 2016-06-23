@@ -1,6 +1,12 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+pygments: true
+markdown: redcarpet
+# include a code snippet like this:
+# ```javascript
+#var msg = 'Hello world!';
+#```
 gems:
   - jekyll-sitemap
 
