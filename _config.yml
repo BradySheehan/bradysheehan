@@ -2,7 +2,8 @@ name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 pygments: true
-markdown: redcarpet
+baseurl: ""
+#url: https://bradysheehan.github.io
 # include a code snippet like this:
 # ```javascript
 #var msg = 'Hello world!';
