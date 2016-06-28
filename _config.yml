@@ -10,6 +10,7 @@ url: https://bradysheehan.github.io
 #```
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag #https://help.github.com/articles/search-engine-optimization-for-github-pages/
 
 defaults:
 -
