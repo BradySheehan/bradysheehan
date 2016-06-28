@@ -4,6 +4,8 @@ permalink: /blog/:year/:month/:day/:title
 pygments: true
 baseurl: ""
 url: https://bradysheehan.github.io
+social:
+  - https://www.linkedin.com/in/BradySheehan
 # include a code snippet like this:
 # ```javascript
 #var msg = 'Hello world!';
