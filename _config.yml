@@ -6,6 +6,8 @@ baseurl: ""
 url: https://bradysheehan.github.io
 social:
   - https://www.linkedin.com/in/BradySheehan
+logo: /images/head_shot_circular_smaller.png
+
 # include a code snippet like this:
 # ```javascript
 #var msg = 'Hello world!';
