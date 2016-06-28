@@ -69,14 +69,13 @@ pre, pre > code {
 
 .blurb {
     position:relative;
+    padding-bottom: 10px;
 }
 
 .blurb img {
     float:right;
 }
 
-/*.head-shot {
-    float:right;
-    /*display: inline-block;*/
+#headshot {
+    margin-left: 20px;
 }
-*/
