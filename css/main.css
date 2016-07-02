@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -9,20 +10,28 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
+.last {
+    margin-right: 0px;
+}
+
 nav {
     border-bottom: 1px solid #d5d5d5;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -37,7 +46,7 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
+ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
@@ -63,10 +72,6 @@ pre, pre > code {
   }
 }
 
-/*.home-blurb {
-    max-width: 58%;
-}*/
-
 .blurb {
     position:relative;
     padding-bottom: 20px;
@@ -78,4 +83,9 @@ pre, pre > code {
 
 #headshot {
     margin-left: 20px;
+}
+
+.float-right {
+    float: right;
+    font-size: x-large;
 }
