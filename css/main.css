@@ -10,7 +10,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-.last {
+#last {
     margin-right: 0px;
 }
 
@@ -85,7 +85,8 @@ pre, pre > code {
     margin-left: 20px;
 }
 
-.float-right {
+/*commented out old formatting of navigation item "brady sheehan"*/
+/*.float-right {
     float: right;
     font-size: x-large;
-}
+}*/
